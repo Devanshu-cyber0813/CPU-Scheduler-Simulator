@@ -81,9 +81,7 @@ vector<Process> copy_processes(const vector<Process>& src) {
     return dest;
 }
 
-/* -----------------------------
-   FCFS: First Come First Serve
-   ----------------------------- */
+//first come first serve
 void scheduler_FCFS(vector<Process> procs) {
     sort(procs.begin(), procs.end(), [](const Process &a, const Process &b){
         if (a.arrival != b.arrival) return a.arrival < b.arrival;
@@ -454,3 +452,4 @@ int main() {
     }
     return 0;
 }
+
