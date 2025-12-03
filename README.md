@@ -30,6 +30,6 @@ Intelligent CPU Scheduler Simulator (C++)
  ./scheduler (Linux/Mac)
  scheduler.exe (Windows)
 
-Developer:
- Devanshu
+
+ Devanshu kumar
  Lovely Professional University
