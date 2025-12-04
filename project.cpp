@@ -6,6 +6,7 @@
 using namespace std;
 
 struct Process {
+
     int pid;
     int arrival;
     int burst;
@@ -452,6 +453,7 @@ int main() {
     }
     return 0;
 }
+
 
 
 
